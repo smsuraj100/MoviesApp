@@ -1,0 +1,191 @@
+.card-img-top {
+    width: 300px;
+    height: 400px;
+}
+
+.movieCard {
+    box-shadow: 0 4px 8px 0 #000000;
+    transition: 0.3s;
+    width: 300px;
+    border: 1px solid black;
+    float: left;
+    margin: 8px;
+}
+
+.movieCard:hover {
+    box-shadow: 0 8px 16px 0 #000000;
+}
+
+.card-title {
+    font-size: 20px;
+    height: 25px;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.card-text{
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.card-body {
+    height: 150px;
+}
+
+.addMyMoviesButton {
+    width: 240px;
+    height: 45px;
+    background-color: #857adc;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #f1f1f1;
+    font-size: 22px;
+}
+
+.addMyMoviesButton:hover {
+    background-color: #125a17;
+    color: #e4d6d6;
+    box-shadow: 0 8px 16px 0 #000000;
+}
+
+.deleteMoviesButton {
+    width: 240px;
+    height: 45px;
+    background-color: #857adc;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #f1f1f1;
+    font-size: 22px; 
+}
+
+.deleteMoviesButton:hover {
+    background-color: #860804;
+    color: #e4d6d6;
+    box-shadow: 0 8px 16px 0 #000000;
+}
+
+.nav-container .nav-title {
+    font-size: 30px;
+    background-color: #71201e;
+    color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-items {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-items a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-items a:hover {    
+  background-color: #ddd;
+  color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.search-container {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.lbl-search{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+}
+
+.input-search {
+    width: 70%;
+    height: 35px;
+    float: left;
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-search {
+    width: 10%;
+    height: 40px;
+    float: left;
+    border-radius: 20px;
+    background-color: #0b3d6f;
+    font-size: 21px;
+    color: #ecf0f1;
+    margin-right: 50px;
+}
+
+.filter-search {
+    width: 10%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    background-color: #565151;
+    font-size: 15px;
+    color: #ecf0f1;
+}
+
+.movies-area {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.saved-movies-header {
+    height: 45px;
+}
+
+.saved-movies-header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.saved-movies-title {
+    height: 100%;
+    width: 90%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0;
+    background-color: #d7e1e2;
+    padding-bottom: 0;
+}
+
+.saved-movies-header select {
+    float: left;
+    width: 10%;
+    color: #333;
+    text-align: center;
+    background-color: #d7e1e2;
+    font-size: 16px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+}
